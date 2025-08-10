@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { @apply bg-bg text-text; }
+.card { @apply bg-panel border border-slate-700/40 rounded-2xl p-4; }
+.btn { @apply rounded-xl px-4 py-2 font-semibold; }
+.btn-primary { @apply btn bg-gradient-to-r from-accent2 to-accent text-black; }
+.btn-ghost { @apply btn bg-slate-800/60 border border-slate-700/60 text-slate-100; }
+.kpi { @apply flex flex-wrap gap-2 text-sm text-slate-200; }
+.chip { @apply text-xs bg-slate-800/80 border border-slate-700/60 rounded-full px-2 py-1; }
+input, select { @apply bg-slate-900/70 border border-slate-700/60 rounded-xl px-3 py-2 outline-none; }
+h1 { @apply text-xl font-bold; }
+h2 { @apply text-lg font-semibold; }
+.small { @apply text-xs text-muted; }

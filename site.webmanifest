@@ -1,0 +1,9 @@
+{
+  "name": "Food Planner Mini App",
+  "short_name": "FoodPlanner",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1320",
+  "theme_color": "#0f1320",
+  "icons": []
+}
